@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Lounge</title>
+    <link rel="icon" href="./assets/favicon.ico" type="title-icon" />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/logotop.jpeg" alt="recipe lounge">
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> home </a>
+          <a href="about.html" class="nav-link"> about </a>
+          <a href="tags.html" class="nav-link"> labels </a>
+          <a href="recipes.html" class="nav-link"> recipes </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn">contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main class="page">
+     <section class="contact-container">
+          <article class="contact-info">
+            <h3>Tell us your thoughts! ❤️</h3>
+            <p>
+              Feel free to contact us and give us your opinions about the recipe. We would love to
+              hear what changes you did to the dish to make it tastier and fancier 😊
+            </p>
+            <p>
+              I hope you liked these recipes and do give them a try. I assure you, it wouldn't be
+              the only time you make it. Namaste! 🙏🙏🙏</p>
+          </article>
+
+          <article>
+            <form class="form contact-form">
+              <div class="form-row">
+                <label html="name" class="form-label">Enter your name</label>
+                <input type="text" name="name" id="name" class="form-input" />
+              </div>
+              <div class="form-row">
+                <label html="email" class="form-label">Enter your email</label>
+                <input type="text" name="email" id="email" class="form-input" />
+              </div>
+              <div class="form-row">
+                <label html="message" class="form-label">Type your message</label>
+                <textarea name="message" id="message" class="form-textarea"></textarea>
+              </div>
+
+              <div class="nav-link contact-link">
+                <a href="thanks.html" class="btn"> submit </a>
+              </div>
+
+            </form>
+          </article>
+        </section>
+
+
+        <section class="featured-recipes">
+          <h5 class="featured-title">Our most popular recipes 😋</h5>
+          <div class="recipes-list">
+
+            <a href="recipe1.html" class="recipe">
+              <img
+                src="./assets/recipes/recipe-1.jpeg"
+                class="img recipe-img"
+                alt=""
+              />
+              <h5>Chicken Tikka Masala</h5>
+              <p>Prep : 25mins | Cook : 45mins</p>
+            </a>
+
+            <a href="recipe2.html" class="recipe">
+              <img
+                src="./assets/recipes/recipe-2.jpeg"
+                class="img recipe-img"
+                alt=""
+              />
+              <h5>North-Indian Fish Curry</h5>
+              <p>Prep : 25mins | Cook : 20mins</p>
+            </a>
+
+            <a href="recipe6.html" class="recipe">
+              <img
+                src="./assets/recipes/recipe-6.jpeg"
+                class="img recipe-img"
+                alt=""
+              />
+              <h5>Punjabi Lassi</h5>
+              <p>Prep : 5mins | Cook : 0min</p>
+            </a>
+
+        </div>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <p>
+        <span class="footer-logo">Recipe Lounge:</span>
+        For the love of food ❤️
+      </p>
+    </footer>
+    <script src="./js/website.js"></script>
+  </body>
+</html>
